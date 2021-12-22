@@ -2,13 +2,13 @@
 
 namespace Laraditz\Twoc2p\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+//use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class Twoc2pPayment extends Model
 {
-    use HasFactory;
+    //use HasFactory;
 
     protected $fillable = ['id', 'action', 'request', 'response'];
 
